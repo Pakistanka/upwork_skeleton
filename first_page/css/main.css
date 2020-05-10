@@ -1,0 +1,154 @@
+.main {
+	background-color: #222222;
+	overflow-y: hidden;
+
+	display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+	.stickerpack__title {
+		color: #ffffff;
+		font-family: "Basis Grotesque Pro", sans-serif;
+		font-size: 26px;
+		font-weight: bold;
+		margin-left: 25px;
+		width: 246px;
+	}
+
+	.stickerpack__buttons {
+
+	}
+		.stickerpack__button {
+			width: 91px;
+			height: 32px;
+			border: 1px solid #ffffff;
+
+			color: #ffffff;
+			background-color: #222222;
+			border-radius: 15px;
+
+			font-family: "Basis Grotesque Pro", sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.stickerpack__button:hover {
+			background-color: #ffffff;
+			color: #222222;
+			outline: none;
+		}
+
+
+/* ------------------------------
+		TABLET (768px)
+------------------------------ */
+
+@media only screen and (min-width: 768px) {
+	.stickerpack__title {
+		width: 100%;
+		text-align: center;
+	}
+	.stickerpack__buttons {
+		display: flex;
+    	justify-content: flex-end;
+	}
+	.stickerpack__button {
+		margin-left: 5px;
+	}
+
+}
+
+/* ------------------------------
+		DESKTOP (1200px)
+------------------------------ */
+
+@media only screen and (min-width: 1200px) {
+
+	
+}
+
+/* ------------------------------
+		DESKTOP (1595px)
+------------------------------ */
+
+@media only screen and (min-width: 1595px) {
+	.main {
+		padding: 0 100px;
+	}
+	.stickerpack__title{
+		font-size: 34px;
+	}
+	.stickerpack__buttons {
+		margin-right: 4rem;
+	}
+}
+
+
+/* ------------------------------
+		SKELETON
+------------------------------ */
+
+	.skeleton{
+
+	}
+		.skeleton__title {
+			color: #ffffff;
+			font-family: "Basis Grotesque Pro", sans-serif;
+			font-size: 26px;
+			font-weight: bold;
+
+			margin: 30px 0px 23px 30px;
+		}
+		.skeleton-slider__subtitle {
+			color: #ffffff;
+			font-family: "Basis Grotesque Pro", sans-serif;
+			font-size: 16px;
+			font-weight: bold;
+
+			margin-bottom: 10px;
+
+		}
+		.skeleton-slider__price {
+			color: #ffffff;
+			font-family: "Basis Grotesque Pro", sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+
+			margin-top: 5px;
+		}
+
+/* ------------------------------
+		TABLET (768px)
+------------------------------ */
+
+@media only screen and (min-width: 768px) {
+	.skeleton-slider__title {
+		width: 100%;
+		text-align: center;
+		margin: 50px auto 20px;
+	}
+
+	.skeleton__title {
+		text-align: center;
+	}
+/* ------------------------------
+		DESKTOP (1200px)
+------------------------------ */
+
+@media only screen and (min-width: 1200px) {
+	.skeleton__title {
+		margin-top: 60px;
+	}
+}
+
+/* ------------------------------
+		DESKTOP (1595px)
+------------------------------ */
+
+@media only screen and (min-width: 1595px) {
+	.skeleton__title{
+		font-size: 34px;
+	}
+
+}
+

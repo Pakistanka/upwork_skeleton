@@ -1,0 +1,95 @@
+/* --------------------------
+            FOOTER 
+-------------------------- */
+
+.footer {
+    width: 100%;
+    /* background-color: #a300ff; */
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #a300ff;
+	background:
+		linear-gradient(135deg, #a300ff 0px, #a300ff 0) top left,
+		linear-gradient(260deg, #222222 10px, #a300ff 0) top right,
+		linear-gradient(253deg, #222222 29px, #a300ff 0) bottom right,
+		linear-gradient(45deg,  #a300ff 0px, #a300ff 0) bottom left;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    padding: 25px 0px 17px;
+}
+
+    /* .footer::after {
+        content: "";
+        background-image: url(../images/bottom-arrow.svg);
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 51px;
+
+        display: block;
+        position: relative;
+        bottom: 27px;
+        left: 17px;
+    } */
+    .footer__link {
+        color: transparent;
+    }
+
+    .footer__items{
+        color: #222222;
+        font-family: "Basis Grotesque Pro", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+        .footer__items--bold {
+            color: #222222;
+            font-family: "Basis Grotesque Pro", sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+
+            margin-bottom: 12px;
+        }
+        .footer__items--link {
+            color: #222222;
+            font-family: "Basis Grotesque Pro", sans-serif;
+            font-size: 15px;
+            font-weight: 400; 
+
+            text-decoration: none;
+        }
+    .footer__image {
+        margin-bottom: 10px;
+        width: 100px;
+    }
+
+/* ------------------------------
+		TABLET (768px)
+------------------------------ */
+
+@media only screen and (min-width: 768px) {
+	.footer__items {
+		margin-right: 15px;
+	}
+	.footer__block {
+        display: flex;
+    }
+
+}
+
+/* ------------------------------
+		DESKTOP (1200px)
+------------------------------ */
+
+@media only screen and (min-width: 1200px) {
+	.footer__wrap {
+        display: flex;
+    }
+    .footer__block {
+        margin-left: 15px;
+    }
+
+}
+
+    

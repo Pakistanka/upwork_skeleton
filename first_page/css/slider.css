@@ -1,0 +1,146 @@
+.skeleton-slider {
+	margin-top: 15px;
+	margin-bottom: -10px;
+}
+	.skeleton-slider__image {
+		width: 144px;
+		height: 242px;
+		margin-bottom: -5px;
+	}
+	.skeleton-slider__text {
+
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+/* ------------------------------
+		TABLET (768px)
+------------------------------ */
+
+@media only screen and (min-width: 600px) {
+	.skeleton__title {
+		text-align: center;
+	}
+	
+
+}
+
+/* ------------------------------
+		DESKTOP (1200px)
+------------------------------ */
+
+@media only screen and (min-width: 1200px) {
+	.skeleton-slider__image {
+		width: 214px;
+		height: 332px;
+		margin-bottom: -100px;
+	}
+
+}
+
+
+
+
+/* ------------------------------
+		STICKERPACK
+------------------------------ */
+
+.stickerpack-slider {
+
+}
+	.stickerpack-slider__block {
+		width: 210px;
+		margin: 15px 10px;
+	}
+	.stickerpack-slider__image {
+		width: 210px;
+		height: 152px;
+	}
+	.stickerpack-slider__text {
+		color: #ffffff;
+		font-family: "Basis Grotesque Pro", sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		margin-top: 15px;
+	}
+	.stickerpack-slider__author {
+		color: #ffffff;
+		font-family: "Basis Grotesque Pro";
+		font-size: 10px;
+		font-weight: 400;
+	}
+
+.stickerpack-slider .slick-prev,
+.skeleton-slider .slick-prev{
+	left: -1rem;
+	transform: rotate(180deg);
+}
+.stickerpack-slider .slick-next,
+.skeleton-slider .slick-next {
+	right: -1rem;
+}
+
+	
+.stickerpack-slider .slick-arrow,
+.skeleton-slider .slick-arrow {
+top: 50%;
+height: 26px;
+width: 14px;
+margin-top: -13px;
+position: absolute;
+font-size: 0;
+cursor: pointer;
+background-color: transparent;
+border: none;
+background-image: url(https://tarkikromanski.github.io/files/arrow-slider.png);
+background-repeat: no-repeat;
+}
+
+.stickerpack-slider__button {
+	display: none;
+}
+
+.stickerpack-slider__line:nth-child(2),
+.stickerpack-slider__line:nth-child(3) {
+	display: none;
+}
+
+
+/* ------------------------------
+		DESKTOP (1595px)
+------------------------------ */
+
+@media only screen and (min-width: 1200px) {
+	.stickerpack-slider__button {
+		justify-content: flex-end;
+		align-items: center;
+		display: flex;
+		flex-basis: 100%;
+		width: 100%;
+		padding-right: 60px;
+		background-color: #222222;
+		border: none;
+
+		color: #ffffff;
+		font-family: "Basis Grotesque Pro", sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		/* animation: mymove 2s infinite; */
+	}
+
+	.stickerpack-slider__hidden-block {
+		flex-wrap: wrap;
+	}
+
+	.stickerpack-slider__hidden-block .stickerpack-slider__block {
+		margin: 15px 30px;
+	}
+
+	
+
+	
+}
+
