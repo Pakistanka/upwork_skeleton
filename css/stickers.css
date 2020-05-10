@@ -1,0 +1,49 @@
+.stickers {
+    position: relative;
+}
+    .stickers__coffin {
+        width: 75px;
+        height: 107px;
+        position: absolute;
+        bottom: 15px;
+        z-index:3;
+    }
+    .stickers__flower {
+        width: 104px;
+        height: 100px;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+    .stickers__knife {
+        width: 107px;
+        height: 88px;
+        position: relative;
+        bottom: 37px;
+        left: 80px;
+        
+    }
+
+/* ------------------------------
+		TABLET (768px)
+------------------------------ */
+
+@media only screen and (min-width: 768px) {
+    .stickers__coffin {
+        width: 59px;
+        height: 93px;
+        bottom: 15px;
+        left: 41px;
+    }
+    .stickers__flower {
+        bottom: 20px;
+        left: 47px;
+    }
+    .stickers__knife {
+        width: 92px;
+        height: 74px;
+        bottom: 30px;
+        left: 100px;
+    }
+
+}
