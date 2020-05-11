@@ -1,0 +1,47 @@
+.move-line {
+    width: 45%;
+    position: fixed;
+    bottom: 25px;
+    height: 5px;
+    /* z-index: 10; */
+    left: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move-line__active {
+    width: 33%;
+    height: 7px;
+    border-radius: 2px;
+}
+
+.active {
+    background-color: black;
+}
+
+
+.s_panel__base_bg__slider .slick-prev {
+    left: -1.5rem;
+    transform: rotate(90deg);
+}
+
+.s_panel__base_bg__slider .slick-next {
+    right: -1.5rem;
+    transform: rotate(270deg);
+}
+
+.s_panel__base_bg__slider .slick-arrow {
+    top: 50%;
+    height: 26px;
+    width: 14px;
+    margin-top: -13px;
+    position: absolute;
+    font-size: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    background-image: url('../images/svg/arrow-black.svg');
+    background-repeat: no-repeat;
+}

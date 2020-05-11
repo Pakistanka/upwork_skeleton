@@ -1,0 +1,66 @@
+.price {
+    background-color: #a300ff;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.price_lable {
+    font-size: 9px;
+}
+
+.price_money {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 5px 0px 10px;
+}
+
+.price_btn {
+    background-image: url(../images/button-bg.svg);
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 140px;
+    height: 30px;
+    /* margin: 25px 0px 30px; */
+    color: white;
+    padding-top: 10px;
+}
+
+.price_btn::after {
+    content: "";
+    background-image: url(../images/white-angle.svg);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 35px;
+    display: block;
+    position: relative;
+    bottom: 26px;
+    left: 123px;
+}
+
+.price_btn:hover {
+    background-image: none;
+    background-color: #222222;
+    border: none;
+    outline: none;
+    padding-top: 0px;
+}
+
+.price_btn:hover::after {
+    background-image: none;
+    background-color: #222222;
+    display: none;
+}
+
+.price_info {
+    font-size: 9px;
+    margin-right: 5px;
+}

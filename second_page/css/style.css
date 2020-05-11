@@ -6,24 +6,25 @@ body {
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    height: 100wh;
+    height: 100vh;
     background-color: #a300ff;
 }
 
 
 body {
     min-width: 320px;
-    width: 100%;
+    overflow: hidden;
+    /* width: 100%; */
     /* background-color: #a300ff; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
     display: flex;
     flex-direction: column;
 }
-
+/* 
 .main {
     flex: 1 0 auto;
-}
+} */
 
 .footer {
     flex-shrink: 0;
