@@ -1,0 +1,84 @@
+
+.stickers__coffin,
+.stickers__flower,
+.stickers__knife {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+
+.stickers:hover .stickers__coffin {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    bottom: -20px;
+}
+
+.stickers:hover .stickers__flower {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    bottom: -20px;
+    left: 70px;
+}
+
+.stickers:hover .stickers__knife {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    bottom: -20px;
+    left: 160px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .stickers__coffin,
+    .stickers__flower,
+    .stickers__knife {
+        transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+    }
+
+    .stickers:hover .stickers__coffin {
+        transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+        bottom: -30px;
+        left: 41px;
+    }
+
+    .stickers:hover .stickers__flower {
+        transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+        bottom: -30px;
+        left: 100px;
+    }
+
+    .stickers:hover .stickers__knife {
+        transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+        bottom: -30px;
+        left: 190px;
+    }
+}

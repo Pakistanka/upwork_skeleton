@@ -1,11 +1,17 @@
 .skeleton-slider {
 	margin-top: 15px;
 	margin-bottom: -10px;
+	height: 272px;
 }
 	.skeleton-slider__image {
 		width: 144px;
 		height: 242px;
 		margin-bottom: -5px;
+		transition-duration: .5s;
+	}
+	.skeleton-slider__image:hover{
+		width: 154px;
+		height: 262px;
 	}
 	.skeleton-slider__text {
 
@@ -37,6 +43,14 @@
 		width: 214px;
 		height: 332px;
 		margin-bottom: -100px;
+		transition-duration: .5s;
+	}
+	.skeleton-slider__image:hover{
+		width: 224px;
+		height: 342px;
+	}
+	.skeleton-slider {
+		height: 374px;
 	}
 
 }
