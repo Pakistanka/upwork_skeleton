@@ -142,10 +142,6 @@
 }
 
 .header__button {
-    /* width: 140px;
-		height: 38px;
-		background-color: #222222;
-		color: #ffffff; */
     background-image: url(../images/button-bg.svg);
     background-repeat: no-repeat;
     border: none;

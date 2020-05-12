@@ -2,7 +2,6 @@
 	 position: relative;
 	 display: block;
 	 width: 60%;
-	 /* margin: 0 auto; */
 	 font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
 	 font-size: 18px;
      color: #222;
@@ -28,31 +27,30 @@
 	 transform: translateY(-50%) rotate(180deg);
 }
  .select-box__icon {
-	 position: absolute;
-	 top: 50%;
-	 right: 15px;
-	 transform: translateY(-50%);
-	 width: 8px;
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+	width: 8px;
 	height: 4px;
-	 transition: 0.2s ease;
+	transition: 0.2s ease;
 }
  .select-box__value {
-	 display: flex;
+	display: flex;
 }
  .select-box__input {
-	 display: none;
+	display: none;
 }
  .select-box__input:checked + .select-box__input-text {
-	 display: block;
+	display: block;
 }
  .select-box__input-text {
-	 display: none;
-	 width: 100%;
-	 margin: 0;
-	 padding: 2px 15px;
-	 /* background-color: #fff; */
+	display: none;
+	width: 100%;
+	margin: 0;
+	padding: 2px 15px;
 
-	 color: #272727;
+	color: #272727;
 	font-family: "Basis Grotesque Pro", sans-serif;
 	font-size: 11px;
 	font-weight: 400;
