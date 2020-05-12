@@ -10,6 +10,16 @@
     justify-content: center;
     align-items: center;
 }
+/* ------------------------------
+		TABLET (768px)
+------------------------------ */
+
+@media only screen and (max-width: 768px) {
+    .move-line {
+        display: none;
+    }
+
+}
 
 .move-line__active {
     width: 33%;

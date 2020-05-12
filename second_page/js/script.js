@@ -5,5 +5,5 @@ $('.s_panel__base_bg__slider').slick({
     arrows: true,
   });
 
-
+// 
 
