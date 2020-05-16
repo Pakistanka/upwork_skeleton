@@ -10,23 +10,20 @@
 		height: 80px;
 		width: 100%;
 	}
+
+
 	.header__block {
+		margin-top: -80%;
+    	padding-top: 1%;
+    	background-color: #a300ff;
 		position: relative;
-		margin-top: 260px;
-		width: 280px;
 	}
 	.header__bg {
-    background-image: url(../images/svg/skeleton_tshirt.png);
-    width: 281px;
-    height: 324px;
-    background-size: 280px 494px;
-    background-repeat: no-repeat;
-    position: absolute;
-		top: 0px;
-		left: 30px;
-    /* background-position: -9px 0px; */
-
+		width: 86vw;
+		margin-top: -25%;
 	}
+
+	
 	.header__nav {
 		display: flex;
 		justify-content: space-between;
@@ -137,10 +134,6 @@
 	}
 
 	.header__button {
-		/* width: 140px;
-		height: 38px;
-		background-color: #222222;
-		color: #ffffff; */
 		background-image: url(../images/button-bg.svg);
 		background-repeat: no-repeat;
 
@@ -197,19 +190,17 @@
 	}
 	.header__wrapper {
 		display: flex;
-		justify-content: flex-end;
-		width: 50%;
-    	margin-left: 45%;
 	}
 	.header__block {
-		margin-top: 10px;
-    	display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		width: 335px;
+		margin-top: 0%;
+    	padding-top: 0%;
+    	background-color:transparent;
+		
 	}
 	.header__bg {
-		height: 442px;
+		margin-top: -10%;
+		margin-bottom: -30%;
+		width: 45vw;
 	}
 	.header__join {
 		display: flex;
@@ -229,6 +220,11 @@
 ------------------------------ */
 
 @media only screen and (min-width: 1200px) {
+	
+	.header{
+		min-height: 50vh;
+		padding-top: 25px;
+	}
 	.header__title {
 		display: block;
 	}
@@ -240,14 +236,9 @@
 		margin-left: 50%;
 	}
 	.header__bg {
-		background-image: url(../images/svg/skeleton_tshirt.png);
-		width: 368px;
-		height: 385px;
-		background-size: 388px 656px;
-		background-repeat: no-repeat;
-		position: absolute;
-		top: -10px;
-		left: 10%;
+		margin-top: -15%;
+    	margin-bottom: -45%;
+    	width: 44vw;
 	}
 	.header__wrapper {
 		justify-content: flex-start;
@@ -272,14 +263,7 @@
 		font-size: 19px;
 	}
 	.header__bg {
-		background-image: url(../images/svg/skeleton_tshirt.png);
-		width: 487px;
-		height: 454px;
-		background-size: 388px 656px;
-		background-repeat: no-repeat;
-		position: absolute;
-		top: -10px;
-		left: 10%;
+		
 	}
 }
 
