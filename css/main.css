@@ -15,9 +15,6 @@
 		width: 246px;
 	}
 
-	.stickerpack__buttons {
-
-	}
 		.stickerpack__button {
 			width: 91px;
 			height: 32px;
@@ -131,6 +128,7 @@
 	.skeleton__title {
 		text-align: center;
 	}
+}
 /* ------------------------------
 		DESKTOP (1200px)
 ------------------------------ */
@@ -149,6 +147,4 @@
 	.skeleton__title{
 		font-size: 34px;
 	}
-
 }
-
