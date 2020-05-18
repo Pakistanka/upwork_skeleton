@@ -11,13 +11,13 @@ header_logo.addEventListener('mouseover', mouseOver);
 header_logo.addEventListener('mouseout', mouseOut);
 
 function mouseOver() {
-    gsap.to(".header__logo--sticker", {duration: .5, rotationX: 40, ease: "circ.out"});
-    gsap.to(".header__logo--park", {duration: .5, rotationX: -30, ease: "circ.out"});
+    gsap.to(".header__logo--sticker", {duration: .5, y: "-10", ease: "circ.out"});
+    gsap.to(".header__logo--park", {rotate: 30, duration: .5, y: "10", ease: "circ.out"});
 }
 
 function mouseOut() {
-    gsap.to(".header__logo--sticker", {duration: .5, rotationX: 0, ease: "circ.out"});
-    gsap.to(".header__logo--park", {duration: .5, rotationX: 0, ease: "circ.out"});
+    gsap.to(".header__logo--sticker", {duration: .5, y: 0, ease: "circ.out"});
+    gsap.to(".header__logo--park", {rotate: 0, duration: .5, y: 0, ease: "circ.out"});
 }
 
 

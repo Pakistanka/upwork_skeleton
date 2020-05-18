@@ -15,6 +15,14 @@
 		width: 246px;
 	}
 
+	.stickerpack__buttons {
+		display: flex;
+		justify-content: space-between;
+	}
+	.stickerpack-slider {
+		background-color: #222;
+	}
+
 		.stickerpack__button {
 			width: 91px;
 			height: 32px;
@@ -107,7 +115,7 @@
 			font-size: 14px;
 			font-weight: 400;
 
-			margin-top: 15px;
+			/* margin-top: 15px; */
 		}
 
 /* ------------------------------
